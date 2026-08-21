@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of US Notifiable Disease Surveillance Tracker",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Weekly case counts",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

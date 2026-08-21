@@ -1,0 +1,33 @@
+{
+    "title": "US Notifiable Disease Surveillance Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "diseaseKeyword": {
+            "title": "Disease keyword",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Free-text, case-insensitive match against CDC's official disease label, e.g. \"measles\", \"salmonella\", \"pertussis\". A broad keyword can match several related labels (e.g. \"measles\" matches both \"Measles, Indigenous\" and \"Measles, Imported\").",
+            "prefill": "Measles",
+            "default": "Measles"
+        },
+        "area": {
+            "title": "Reporting area",
+            "type": "string",
+            "editor": "textfield",
+            "description": "A US state name, HHS region name, or \"U.S. Residents\" for the national total. Must match CDC's reporting-area name exactly (e.g. \"California\", \"New England\", \"U.S. Residents\").",
+            "prefill": "U.S. Residents",
+            "default": "U.S. Residents"
+        },
+        "maxResults": {
+            "title": "Max results",
+            "type": "integer",
+            "editor": "number",
+            "description": "Maximum number of weekly records to return, most recent week first.",
+            "default": 20,
+            "minimum": 1,
+            "maximum": 200
+        }
+    },
+    "required": []
+}
