@@ -1,7 +1,7 @@
 {
     "actorSpecification": 1,
     "name": "notifiable-disease-surveillance-tracker",
-    "title": "US Notifiable Disease Surveillance Tracker — CDC NNDSS",
+    "title": "CDC Disease Case Tracker: Weekly NNDSS Data",
     "description": "Look up weekly reported case counts for any CDC-notifiable disease (measles, salmonellosis, pertussis, and hundreds more) by state or nationally, with a comparison to the previous year, via the official CDC NNDSS Weekly Data API.",
     "version": "0.1",
     "meta": {
