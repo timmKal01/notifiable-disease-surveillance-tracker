@@ -1,0 +1,58 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "disease",
+                    "reportingArea",
+                    "mmwrYear",
+                    "mmwrWeek",
+                    "currentWeekCount",
+                    "previous52WeekMax",
+                    "cumulativeYtdCurrentYear",
+                    "cumulativeYtdPreviousYear"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "disease": {
+                        "label": "Disease",
+                        "format": "text"
+                    },
+                    "reportingArea": {
+                        "label": "Reporting area",
+                        "format": "text"
+                    },
+                    "mmwrYear": {
+                        "label": "MMWR year",
+                        "format": "text"
+                    },
+                    "mmwrWeek": {
+                        "label": "MMWR week",
+                        "format": "text"
+                    },
+                    "currentWeekCount": {
+                        "label": "Current week count",
+                        "format": "number"
+                    },
+                    "previous52WeekMax": {
+                        "label": "Previous52 week max",
+                        "format": "number"
+                    },
+                    "cumulativeYtdCurrentYear": {
+                        "label": "Cumulative YTD current year",
+                        "format": "number"
+                    },
+                    "cumulativeYtdPreviousYear": {
+                        "label": "Cumulative YTD previous year",
+                        "format": "number"
+                    }
+                }
+            }
+        }
+    }
+}
