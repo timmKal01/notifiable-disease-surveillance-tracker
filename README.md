@@ -66,5 +66,5 @@ Billed per **search** (one run), not per record returned.
 
 ## Related products
 
-- [Medical Device Adverse Event Tracker](https://github.com/timmKal01/medical-device-adverse-event-tracker) — FDA MAUDE reports, a different federal health-data family
-- [Consumer Complaint Tracker](https://github.com/timmKal01/consumer-complaint-tracker) — CFPB financial complaints, same Socrata-platform mechanism
+- [FDA MAUDE Search](https://apify.com/m_ctim/medical-device-adverse-event-tracker): FDA MAUDE reports, a different federal health-data family
+- [CFPB Complaint Tracker](https://apify.com/m_ctim/consumer-complaint-tracker): CFPB financial complaints, same Socrata-platform mechanism
